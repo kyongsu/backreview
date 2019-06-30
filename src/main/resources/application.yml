@@ -1,0 +1,18 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  devtools:
+    livereload:
+      enabled: true
+
+# local Setting
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
